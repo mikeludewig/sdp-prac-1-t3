@@ -6,6 +6,18 @@ namespace Euler
     {
         static void Main(string[] args)
         {
+			//problem 1
+			int i = 0;
+            int sum = 0;
+            while(i < 1000)
+            {
+                if(i % 3 == 0 || i % 5 == 0)
+                {
+                    sum = sum + i;
+                }
+                i++;
+            }
+            Console.WriteLine("sum is : " + sum);
             Console.WriteLine("Hello World!");
             // Solution for Problem 3, g18d5811
             long n = 600851475143; // inicilalizing the variable int64 bit given 
